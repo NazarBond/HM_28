@@ -1,0 +1,22 @@
+.header {
+  padding: 20px;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #4a5568;
+  font-size: 18px;
+}
+
+.link.active {
+  color: #3182ce;
+  font-weight: 700;
+}
