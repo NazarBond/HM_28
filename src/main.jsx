@@ -8,7 +8,7 @@ const basename = import.meta.env.DEV ? "" : "/HW-28-react";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename={basename}>
+    <BrowserRouter basename="/HM_28/">
       <App />
     </BrowserRouter>
   </React.StrictMode>
